@@ -1,0 +1,60 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    background-color: blueviolet;
+    height: 20vh;
+}
+.header {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    background-image: url(https://ericheymans.b-cdn.net/wp-content/uploads/2012/08/dawn-field-grass-164025.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.logo{
+    
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+
+.liens {
+    justify-content: flex-end;
+    
+}
+.lien{
+    
+    text-decoration:none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.punchline {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    color: aqua;
+    text-transform : uppercase;
+    font-size: 4em;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+
